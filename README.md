@@ -14,6 +14,7 @@ A new Flutter project.
 
 ## Getting Started
 
+##Prompt Gemini AI
 Desarrolla una aplicación en Flutter estructurada en un único archivo main.dart que gestione la navegación mediante rutas nombradas (/, /login, /registro) y utilice la librería google_fonts. La Pantalla de Inicio (Splash) debe presentar un diseño minimalista con fondo azul grisáceo (Colors.blueGrey[800]), un logo central con la letra "M" en estilo Playfair Display y un CircularProgressIndicator blanco que, tras un Timer programado de 10 segundos, redirija automáticamente a la pantalla de Login mediante pushReplacementNamed. La Pantalla de Login debe incluir campos de entrada validados para usuario y contraseña con bordes redondeados y un botón de "Crear Cuenta" que dirija a la ruta de registro. Finalmente, la Pantalla de Registro debe emplear un widget Stack para superponer una etiqueta flotante color ámbar con el texto "Omar Carrasco 6I" en la esquina superior derecha, mientras que el cuerpo principal contiene un formulario detallado con campos para nombre, apellido y correo; es fundamental que en las pantallas de Login y Registro, el logo "M" esté envuelto en un GestureDetector que, al ser clickeado, reinicie el flujo de la app hacia el Splash eliminando el historial de navegación con pushNamedAndRemoveUntil.
 
 This project is a starting point for a Flutter application.
